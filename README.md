@@ -1,24 +1,22 @@
-# SpringMVCµÄÑ§Ï°Àı×Ó£¬spring£¬hibernate£¬mysql
+# SpringMVCçš„å­¦ä¹ ä¾‹å­ï¼Œspringï¼Œhibernateï¼Œmysql
 
-- ±¾ÏîÄ¿ÊÇÒ»¸ö¼òÒ×°æµÄ¶şÊÖ½»Ò×ÊĞ³¡¡£
-- ±¾ÏîÄ¿Ö»ÊÇÒ»¸ö¼òµ¥µÄÀı×Ó£¬°üº¬ÁËÒ»¸öÓĞ4ÕÅ±íµÄÊı¾İ¿â£»
-- 4ÕÅ±í·Ö±ğÎª£ºuser£¨ÓÃ»§±í£©£¬goodsinfo£¨ÉÌÆ·ÏêÏ¸ĞÅÏ¢±í£©£¬message£¨ÏûÏ¢±í£©£¬comment£¨ÉÌÆ·ÆÀÂÛ±í£©
-- 
-- 
+- æœ¬é¡¹ç›®æ˜¯ä¸€ä¸ªç®€æ˜“ç‰ˆçš„äºŒæ‰‹äº¤æ˜“å¸‚åœºã€‚
+- æœ¬é¡¹ç›®åªæ˜¯ä¸€ä¸ªç®€å•çš„ä¾‹å­ï¼ŒåŒ…å«äº†ä¸€ä¸ªæœ‰4å¼ è¡¨çš„æ•°æ®åº“ï¼›
+- 4å¼ è¡¨åˆ†åˆ«ä¸ºï¼šuserï¼ˆç”¨æˆ·è¡¨ï¼‰ï¼Œgoodsinfoï¼ˆå•†å“è¯¦ç»†ä¿¡æ¯è¡¨ï¼‰ï¼Œmessageï¼ˆæ¶ˆæ¯è¡¨ï¼‰ï¼Œcommentï¼ˆå•†å“è¯„è®ºè¡¨ï¼‰
 
-### ²¿Êğ½Ì³ÌÈçÏÂ£º
+### éƒ¨ç½²æ•™ç¨‹å¦‚ä¸‹ï¼š
 
-- 1¡¢½øÈëdos
-- 2¡¢½øÈëmysql¸ùÄ¿Â¼ÊäÈë¡°mysql -u root -p¡±ÆäÖĞrootÎªÄãµÄmysqlÊı¾İ¿âÓÃ»§Ãû£¬È»ºóÊäÈëÃÜÂë£º
+- 1ã€è¿›å…¥dos
+- 2ã€è¿›å…¥mysqlæ ¹ç›®å½•è¾“å…¥â€œmysql -u root -pâ€å…¶ä¸­rootä¸ºä½ çš„mysqlæ•°æ®åº“ç”¨æˆ·åï¼Œç„¶åè¾“å…¥å¯†ç ï¼š
 ![](https://raw.githubusercontent.com/Tticc/fleaMarket-SpringMVC/master/images/001.PNG)
-- 3¡¢´´½¨Êı¾İ¿â£ºCREATE DATABASE proj DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci projÎªÊı¾İ¿âÃû£¬¿ÉÒÔ×Ô¼ºĞŞ¸ÄÎªÆäËûÃû³Æ¡£
-- 4¡¢½«ÏîÄ¿µ¼ÈëMyEclipse
-- 5¡¢´ò¿ªÏîÄ¿->´ò¿ªjdbc.properties
+- 3ã€åˆ›å»ºæ•°æ®åº“ï¼šCREATE DATABASE proj DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci projä¸ºæ•°æ®åº“åï¼Œå¯ä»¥è‡ªå·±ä¿®æ”¹ä¸ºå…¶ä»–åç§°ã€‚
+- 4ã€å°†é¡¹ç›®å¯¼å…¥MyEclipse
+- 5ã€æ‰“å¼€é¡¹ç›®->æ‰“å¼€jdbc.properties
 ![](https://raw.githubusercontent.com/Tticc/fleaMarket-SpringMVC /master/images/002.PNG)
-- 6¡¢jdbc.propertiesÄÚÈİÈçÏÂ£º¸ù¾İÄãµÄmysqlÊı¾İ¿âĞŞ¸Äjdbc.username£¬jdbc.password¡£ÈôÄãÔÚµÚ3²½´´½¨Êı¾İ¿âÊ±Ê¹ÓÃÁË×Ô¼ºÃüÃûµÄÊı¾İ¿â£¬ÔòĞŞ¸Äjdbc.databaseurlÖĞµÄ ¡°proj¡±ÎªÄãµÄÊı¾İ¿âÃû£¬ÇÒ¶Ë¿ÚºÅÄ¬ÈÏÎª3306¡£
+- 6ã€jdbc.propertieså†…å®¹å¦‚ä¸‹ï¼šæ ¹æ®ä½ çš„mysqlæ•°æ®åº“ä¿®æ”¹jdbc.usernameï¼Œjdbc.passwordã€‚è‹¥ä½ åœ¨ç¬¬3æ­¥åˆ›å»ºæ•°æ®åº“æ—¶ä½¿ç”¨äº†è‡ªå·±å‘½åçš„æ•°æ®åº“ï¼Œåˆ™ä¿®æ”¹jdbc.databaseurlä¸­çš„ â€œprojâ€ä¸ºä½ çš„æ•°æ®åº“åï¼Œä¸”ç«¯å£å·é»˜è®¤ä¸º3306ã€‚
 ![](https://raw.githubusercontent.com/Tticc/fleaMarket-SpringMVC/master/images/003.PNG)
-- 7¡¢²¿Êğµ½tomcat£¬ÊäÈëhttp://localhost:8080/DES·ÃÎÊ
-- 8¡¢µã»÷ÓÒÉÏ½Ç ÇåÀíÏĞÖÃ/³öÊÛÖĞ/ÏûÏ¢ ÖĞµÄÈÎÒâÒ»¸ö½øĞĞµÇÂ¼£¬ÓĞÈı¸ö³õÊ¼ÕËºÅ£ºcv¡¢ÖĞÎÄ¡¢cvs ÃÜÂë¶¼ÊÇ£ºadmin
+- 7ã€éƒ¨ç½²åˆ°tomcatï¼Œè¾“å…¥http://localhost:8080/DESè®¿é—®
+- 8ã€ç‚¹å‡»å³ä¸Šè§’ æ¸…ç†é—²ç½®/å‡ºå”®ä¸­/æ¶ˆæ¯ ä¸­çš„ä»»æ„ä¸€ä¸ªè¿›è¡Œç™»å½•ï¼Œæœ‰ä¸‰ä¸ªåˆå§‹è´¦å·ï¼šcvã€ä¸­æ–‡ã€cvs å¯†ç éƒ½æ˜¯ï¼šadmin
 ![](https://raw.githubusercontent.com/Tticc/fleaMarket-SpringMVC/master/images/004.PNG)
 
 
