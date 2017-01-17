@@ -9,7 +9,7 @@
 - 1、进入dos
 - 2、进入mysql根目录输入“mysql -u root -p”其中root为你的mysql数据库用户名，然后输入密码：
 ![](https://raw.githubusercontent.com/Tticc/fleaMarket-SpringMVC/master/images/001.PNG)
-- 3、创建数据库：CREATE DATABASE proj DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci proj为数据库名，可以自己修改为其他名称。
+- 3、创建数据库：CREATE DATABASE des DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci des为数据库名，可以自己修改为其他名称。
 - 4、将项目导入MyEclipse
 - 5、打开项目->打开jdbc.properties
 ![](https://raw.githubusercontent.com/Tticc/fleaMarket-SpringMVC /master/images/002.PNG)
